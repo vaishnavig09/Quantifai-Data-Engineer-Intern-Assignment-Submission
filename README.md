@@ -1,18 +1,18 @@
 
-# 🛍️ E-Commerce ETL & Streamlit Dashboard
+#  E-Commerce ETL & Streamlit Dashboard
 
-### 📌 Overview
+###  Overview
 
 This project performs a complete ETL pipeline and provides an interactive Streamlit dashboard using raw e-commerce data from JSON and CSV formats.
 
-### ✅ Features
+###  Features
 
-- 📥 Upload raw customer, product, and order files
-- 🧹 ETL: Cleans messy data (nulls, date formats, casing, types)
-- 📊 Visualizes cleaned data in a Streamlit UI
-- 📁 Exports cleaned CSVs for downstream use
+-  Upload raw customer, product, and order files
+-  ETL: Cleans messy data (nulls, date formats, casing, types)
+-  Visualizes cleaned data in a Streamlit UI
+- Exports cleaned CSVs for downstream use
 
-### 📂 Project Structure
+###  Project Structure
 
 ```
 techcorp_etl_streamlit/
@@ -20,7 +20,7 @@ techcorp_etl_streamlit/
 ├── README.md
 ```
 
-### 🚀 How to Run
+###  How to Run
 
 1. Install Streamlit:
 ```bash
@@ -37,7 +37,7 @@ streamlit run etl_streamlit_app.py
 - `products_inconsistent_data.json`
 - `orders_unstructured_data.csv`
 
-### 📦 Output
+### Output
 
 - `cleaned_customers.csv`
 - `cleaned_products.csv`
@@ -47,4 +47,4 @@ These files are saved locally after the ETL process and displayed in the dashboa
 
 ---
 
-Made for TechCorp Internship Assignment by [Your Name].
+Made for TechCorp Internship Assignment by vaishnavi gaikwad
